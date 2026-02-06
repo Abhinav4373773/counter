@@ -32,7 +32,11 @@ function App() {
   console.log(count)
   return (
     <>
+    
+     <p style={backgroundclolor=red}>Count: {count}</p>
       <p style={backgroundclolor=red}>Count: {count}</p>
+      <p style={backgroundclolor=red}>Count: {count}</p>
+
       <button onClick={handleIncreament}>Incrase</button>
       <button onClick={handleDecreament}>Decrease</button>
     </>
