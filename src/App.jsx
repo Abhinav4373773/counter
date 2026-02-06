@@ -33,6 +33,7 @@ function App() {
   return (
     <>
       <p>Count: {count}</p>
+      <p>Count: {count}</p>
       <button onClick={handleIncreament}>Incrase</button>
       <button onClick={handleDecreament}>Decrease</button>
     </>
